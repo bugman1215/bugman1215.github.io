@@ -21,8 +21,8 @@ repository               : "bugman1215/bugman1215.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "linked.jpg"
-  name             : "Your Sidebar Name"
+  avatar           : "profile.png"
+  name             : "Mengnan He"
   pronouns         : "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Evanston,IL,United States"
