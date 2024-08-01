@@ -19,12 +19,22 @@ Education
 
 Research Experience
 ======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](http://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+
+### Research Assistant at Northwestern University Seda Ogrenci Lab
+*January 2024 – Present*  
+- Focused on high-level synthesis for machine learning
+- Developed a 2D U-Net model inference for input/output verification in hls4ml
+- Researched resource-sharing techniques for neural network implementation on FPGA, emphasizing activation layer linearization and cross-layer resource sharing
+### Research Assistant at Tsinghua University Future Laboratory
+*September 2020 – July 2021*  
+- Enhanced car obstacle avoidance functionality using a potential field algorithm, achieving a 20% error reduction
+- Implemented a GUI for easy control and optimized the obstacle avoidance algorithm by combining the A* algorithm
+- Improved heavy-duty car path computation and replaced slow Bluetooth communication with WiFi for instant control
+### Software Engineer Intern at VMware Information Technology Co., Ltd.
+*August 2022 – May 2023*  
+- Developed an end-to-end API using Yolo V5 for water meter detection, enhancing task efficiency on a Kubeflow server
+- Deployed models like AlexNet, Faster-RCNN, and ResNet-50 in object detection and image classification on Kubernetes deep learning containers
+- Designed a tool to transform raw texts of books written in ancient Chinese into a unified format using LaTeX and applied a language translation model
 
 Site-wide configuration
 ------
