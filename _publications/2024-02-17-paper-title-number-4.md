@@ -1,5 +1,6 @@
 ---
-title: "Paper Title Number 4"
+title: "HIMA-Net: Humor prediction by self-attention based on key 
+information related to humor "
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-4
