@@ -43,21 +43,21 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "bugman1215"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  #bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "bugman1215"# Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "mengnan-he-77588524b"# Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -220,7 +220,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  talks:
+  projects:
     output: true
     permalink: /:collection/:path/
 
@@ -275,9 +275,9 @@ defaults:
   # _talks
   - scope:
       path: ""
-      type: talks
+      type: projects
     values:
-      layout: talk
+      layout: project
       author_profile: true
       share: true
 
