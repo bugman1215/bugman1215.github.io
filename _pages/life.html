@@ -1,16 +1,17 @@
 ---
-layout: archive
-title: "Life outside of research"
+layout: life
+title: "Life in Photos"
 permalink: /life/
-author_profile: true
+photos:
+  - url: "/images/waldo.png"
+    alt: "A beautiful sunset."
+    caption: "Sunset in Bali, 2022"
+  - url: "/images/ball.png"
+    alt: "Mountain view."
+    caption: "Hiking in the Alps, 2021"
+  - url: "/images/ball.png"
+    alt: "City skyline."
+    caption: "New York City, 2020"
+  # Add more photos as needed
 ---
 
-{% if site.talkmap_link == true %}
-
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
