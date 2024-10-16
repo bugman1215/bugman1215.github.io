@@ -15,4 +15,4 @@ Throughout my career, I've had the opportunity to work on diverse projects rangi
 
 In addition to my technical work, I’ve had hands-on experience designing interactive science exhibits for children and developing AI-powered applications for podcast generation and internet advertising analysis. I'm also actively involved in leadership roles, most recently contributing to the 2022 Beijing Winter Olympics and student-led initiatives at Tsinghua University.
 
-Feel free to explore my [projects](projects), [publications](publications), and ongoing work, and reach out if you're interested in collaborating or learning more about my research. Let's push the boundaries of what's possible together!
+Feel free to explore my [projects](portfolio), [publications](publications), and ongoing work, and reach out if you're interested in collaborating or learning more about my research. Let's push the boundaries of what's possible together!
