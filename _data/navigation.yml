@@ -17,8 +17,8 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Life outside of Research"
-  url: /life/   
+  #- title: "Life outside of Research"
+  #url: /life/   
         
   #- title: "Blog Posts"
   #  url: /year-archive/
