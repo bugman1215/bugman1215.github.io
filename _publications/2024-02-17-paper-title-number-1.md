@@ -11,4 +11,13 @@ paperurl: 'http://bugman1215.github.io/files/paper1.pdf'
 citation: 'Hang Qin, Mengnan He, Hanmin Jia, "HIMA-Net: humor prediction by self-attention based on key information related to humor," Proc. SPIE 11933, 2021 International Conference on Neural Networks, Information and Communication Engineering, 119330Q (15 October 2021); https://doi.org/10.1117/12.2615166'
 ---
 
-The contents above will be part of a list of publications, if the user clicks the link for the publication than the contents of section will be rendered as a full page, allowing you to provide more information about the paper for the reader. When publications are displayed as a single page, the contents of the above "citation" field will automatically be included below this section in a smaller font.
+Humor is a high-level semantic emotion that can only be understood at a stage when the human mind has developed. 
+Humor detection is a challenging task in the field of natural language processing. In this paper, we focus on the 
+characteristics of humor from the way it is generated and propose the Humor Important Message Attention Net (HIMA
+Net): a self-attention network based on the key messages related to humor. Results show that HIMA-Net outperforms the 
+traditional models on three datasets (Headline, Pun, Short Jokes), and further analysis demonstrates the effectiveness of 
+the proposed model. 
+
+
+**Keywords:** Humor detection; Natural language processing; Lightweight network; Self-Attention; Sequence representation 
+model 

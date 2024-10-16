@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "[PurplePlace](https://purple-place-1d5d9.web.app/)"
+excerpt: "An app designed for finding student housing<br/><img src='/images/purpleplace.png'>"
 collection: portfolio
 ---
 
