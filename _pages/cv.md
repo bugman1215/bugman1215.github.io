@@ -14,7 +14,7 @@ Education
 * M.S. in Computer Engineering,**Northwestern University**, Evanston, IL, United States  2023 - 2025(expected)
 * B.S. in Mathematics and Physics Fundamentals, **Tsinghua University**, Beijing, China  2018 - 2022
 
-Work experience
+Research experience
 ======
 * Spring 2024: Academic Pages Collaborator
   * Github University
@@ -31,6 +31,37 @@ Work experience
   * Duties included: Tagging issues
   * Supervisor: Professor Git
   
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Projects
+======
+* Spring 2024: Academic Pages Collaborator
+  * Github University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
+
+* Fall 2015: Research Assistant
+  * Github University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
+
+* Summer 2015: Research Assistant
+  * Github University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git  
+
+
+
+<!-- Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul> -->
+  
 Skills
 ======
 * Skill 1
@@ -39,20 +70,6 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-
   
 Service and leadership
 ======
