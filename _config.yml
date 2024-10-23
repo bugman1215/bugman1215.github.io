@@ -300,7 +300,7 @@ defaults:
       path: ""
       type: life
     values:
-      layout: archive
+      layout: Life
       author_profile: true
       share: true
 
