@@ -220,7 +220,7 @@ collections:
   portfolio:
     output: true
     permalink: /:collection/:path/
-  life:
+  projects:
     output: true
     permalink: /:collection/:path/
   research:
@@ -284,12 +284,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _life
+  # _talks
   - scope:
       path: ""
-      type: life
+      type: projects
     values:
-      layout: life
+      layout: project
       author_profile: true
       share: true
 
