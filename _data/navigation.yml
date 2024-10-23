@@ -17,14 +17,16 @@ main:
   - title: "Publications"
     url: /publications/
 
-  #- title: "Life outside of Research"
-  #url: /life/   
-        
+
   #- title: "Blog Posts"
   #  url: /year-archive/
     
   - title: "CV"
     url: /cv/
+    
+  - title: "Life outside of Research"
+    url: /life/   
+        
     
   #- title: "Guide"
    # url: /markdown/
