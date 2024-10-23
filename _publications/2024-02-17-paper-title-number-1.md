@@ -4,9 +4,9 @@ information related to humor "
 collection: publications
 category: conferences
 permalink: /publication/2024-02-17-paper-title-number-1
-excerpt: 'This paper is about fixing template issue #693.'
+#excerpt: 'This paper is about fixing template issue #693.'
 date: 2021-10-15
-venue: 'GitHub Journal of Bugs'
+venue: 'International Conference on Neural Networks, Information and Communication Engineering'
 paperurl: 'http://bugman1215.github.io/files/paper1.pdf'
 citation: 'Hang Qin, Mengnan He, Hanmin Jia, "HIMA-Net: humor prediction by self-attention based on key information related to humor," Proc. SPIE 11933, 2021 International Conference on Neural Networks, Information and Communication Engineering, 119330Q (15 October 2021); https://doi.org/10.1117/12.2615166'
 ---
