@@ -24,7 +24,7 @@ author:
   avatar           : "profile.png"
   name             : "Mengnan He"
   pronouns         : "she/her"  
-  bio              : "Passion for AI, hardware design, innovative problem-solving in robotics and machine learning. Active seeking PhD positions starting fall 2025"
+  bio              : " Passion for machine learning, hardware acceleration and HCI. Actively seeking lab positions in PhD program starting fall 2025"
   location         : "Evanston, IL"
   employer         : "Northwestern University"
   uri              : # URL
@@ -32,7 +32,7 @@ author:
 
   # Academic websites
   #arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?view_op=list_works&hl=en&user=cIRV2aIAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=cIRV2aIAAAAJ&hl=en"
   #impactstory      : # URL
   #orcid            : #"http://orcid.org/yourorcidurl"
   #semantic         : # URL
