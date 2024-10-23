@@ -1,5 +1,5 @@
 ---
-layout: Life
+layout: default
 title: "Life outside of research"
 permalink: /life/
 author_profile: true
@@ -33,12 +33,58 @@ photos:
     caption: "Playing Helene in Elisabeth, the musical, 2019"
 ---
 
-<!-- {% if site.talkmap_link == true %}
+<style>
+.photo-gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 自动适应屏幕大小 */
+  gap: 20px;
+  padding: 20px;
+}
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
+.photo-item {
+  position: relative;
+  overflow: hidden;
+}
 
-{% endif %}
+.photo-item img {
+  width: 100%; /* 保持宽度自适应父容器 */
+  height: auto; /* 根据宽度自动调整高度 */
+  display: block;
+  object-fit: cover; /* 确保图片在容器内适应 */
+  border-radius: 10px; /* 圆角 */
+}
 
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %} -->
+.photo-caption {
+  text-align: center;
+  font-size: 0.9em;
+  color: #555;
+  margin-top: 8px;
+}
+
+/* 小屏幕设备的布局调整 */
+@media screen and (max-width: 768px) {
+  .photo-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 更小的最小宽度 */
+  }
+
+  .photo-caption {
+    font-size: 0.8em; /* 缩小文字大小 */
+  }
+}
+
+/* 大屏幕设备的布局调整 */
+@media screen and (min-width: 1200px) {
+  .photo-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 大屏幕上使用更大的网格项 */
+  }
+}
+</style>
+
+<div class="photo-gallery">
+  {% for photo in page.photos %}
+    <div class="photo-item">
+      <img src="{{ photo.url }}" alt="{{ photo.alt }}">
+      <p class="photo-caption">{{ photo.caption }}</p>
+    </div>
+  {% endfor %}
+</div>

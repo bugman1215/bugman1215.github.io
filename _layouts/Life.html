@@ -6,7 +6,7 @@ title: "Life in Photos"
 <style>
 .photo-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 调整最小宽度为200px */
   gap: 20px;
   padding: 20px;
 }
@@ -17,8 +17,8 @@ title: "Life in Photos"
 }
 
 .photo-item img {
-  width: auto;
-  height: 80%;
+  width: 100%; /* 使图像宽度占满父容器 */
+  height: auto; /* 根据宽度调整高度，保持图像比例 */
   display: block;
   object-fit: cover;
   border-radius: 10px;
@@ -30,15 +30,21 @@ title: "Life in Photos"
   color: #555;
   margin-top: 8px;
 }
-</style>
 
-<div class="photo-gallery">
-  {% for photo in page.photos %}
-    <div class="photo-item">
-      <img src="{{ photo.url }}" alt="{{ photo.alt }}">
-      <p class="photo-caption">{{ photo.caption }}</p>
-    </div>
-  {% endfor %}
-</div>
+/* 针对小屏幕进行调整 */
+@media screen and (max-width: 768px) {
+  .photo-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* 更小的最小宽度 */
+  }
 
+  .photo-caption {
+    font-size: 0.8em; /* 缩小文字大小 */
+  }
+}
 
+/* 针对大屏幕进行调整 */
+@media screen and (min-width: 1200px) {
+  .photo-gallery {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 在大屏幕上使用更大的网格项 */
+  }
+}
