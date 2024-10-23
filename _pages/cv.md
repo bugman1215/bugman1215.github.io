@@ -24,6 +24,11 @@ Research experience
 - Investigated the potential benefits of linearization in enhancing hardware resource sharing, particularly in environments with limited FPGA resources.
 - Explored how this approach could make it feasible to implement highly computational neural networks on small FPGA boards, providing a potential solution for resource-constrained hardware designs.
   
+### Research Assistant, Professor Jiancheng Ye, Cornell University (Remote)
+**Aug 2024 - Present**
+
+- Modify the MedSAM model by freezing the prompt encoder and focusing on training the image encoder and mask decoder for automatic segmentation of 3D medical images. This modification optimizes model performance while reducing computational overhead, enabling more efficient and accurate segmentation of anatomical structures from multi-organ CT datasets.
+
 ### Software Engineer Intern, VMware – Beijing, China  
 **Aug 2022 – May 2023**
 
